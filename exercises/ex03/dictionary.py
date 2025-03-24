@@ -45,7 +45,7 @@ def favorite_color(ppl_fave_colors: dict[str, str]) -> str:
             return f"{key}"
 
 
-def bin_len(word_list: dict) -> dict[int, set[str]]:
+def bin_len(word_list: list[str]) -> dict[int, set[str]]:
     """Finds the lengths of certain words in a list and categorizes them."""
     idx: int = 0
     chara_len_dict: dict[int, set[str]] = {}
