@@ -2,9 +2,9 @@
 
 __author__: str = "730611339"
 
-WHITE_BOX: str = "\U00002B1C"
-GREEN_BOX: str = "\U0001F7E9"
-YELLOW_BOX: str = "\U0001F7E8"
+WHITE_BOX: str = "\U00002b1c"
+GREEN_BOX: str = "\U0001f7e9"
+YELLOW_BOX: str = "\U0001f7e8"
 
 
 def contains_char(search_word: str, searched_character: str) -> bool:
